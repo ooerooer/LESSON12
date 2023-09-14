@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    height: 80px;
+    background-color: #52503B;
+}
+
+.nav_contant{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.nav_ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav_a{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.header_contant{
+    background: url(img/header_img_1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header_h4{
+    width: 1174px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 34px;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+}
+
+.header_p{
+    color: #FFF;
+    padding-top: 34px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.header_cen{
+    display: flex;
+    padding-top: 173px;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.header_span_1{
+    display: flex;
+    margin: 100px auto;
+    width: 42px;
+    height: 8px;
+    background-color:#E08631;
+}
+
+.header_contant_2{
+    height: 410px;
+    background:#FAF8F0;
+}
+
+.header_p{
+    width: 360px;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.header_btn_2{
+    width: 107px;
+    height: 42px;
+    border: none;
+    margin-top: 41px;
+    border-radius: 6px;
+    background: #52503B;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.dis_p{
+    margin-top: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+ 
+.header_h1{
+    width: 1287px;
+    margin: 0 auto;
+    color: #52503B;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+}
+
+.header_fotter_div{
+    height: 568px;
+}
+
+.header_big_img{
+    width: 1518px;
+    height: 600px;
+}
+
+.main_h3{
+    color: #52503B;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 32px;
+    margin-top: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.main_p{
+    width: 524px;
+    margin: 14px auto;
+    color: #52503B;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.flex_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.main_img_1{
+    width: 64px;
+    height: 64px;
+}
+
+.main_p_1{
+    color: #52503B;
+    width: 346px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.main_contant{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 74px;
+}
+
+.main_span{
+    display: flex;
+    margin-top: 100px;
+    width: 42px;
+    height: 8px;
+    background-color:#E08631;
+}
+
+
+.main_footer_s{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.main_h2{
+    color: #52503B;
+    font-family: sans-serif;
+    font-size: 32px;
+    margin-top: 30px;
+    font-weight: 400;
+    line-height: 36px
+}
+
+.main_fo_p{
+    width: 554px;
+    color: #52503B;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+.biggner_dis{
+    display: flex;
+    align-items:center;
+    gap: 105px;
+    margin-top: 32px;
+    margin-bottom: 130px;
+}
+
+.dis_ip{
+    display: flex;
+    align-items:center;
+    gap: 16px;
+}
+
+.main_svg{
+    width: 36px;
+    height: 36px;
+}
+
+.main_ff_p{
+    color: #52503B;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.main_ff_p_2{
+    color: #333;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.dis_ip_2{
+    margin-top: 42px;
+    display: flex;
+    align-items:center;
+    gap: 16px;
+}
